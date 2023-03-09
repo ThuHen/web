@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: x-large;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+img {
+  width: 90%;
+}
+.giao-dien {
+  background-color: rgb(136, 180, 165);
+  width: 700px;
+
+  padding: 30px;
+  border-radius: 25px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.so-lan {
+  display: flex;
+}
+.score {
+  display: flex;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image.image1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.image.image2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .image.image3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+.foot {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 15px;
+}
+.guess {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+}
+.inputt {
+    width: 110px;
+    border-radius: 5px;
+}
+.btn {
+  box-sizing: border-box;
+
+width: 90px;
+border-radius: 5px;
+padding: 5px;
+
+}
+.doan {
+  margin-right: 10px;
+}
